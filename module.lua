@@ -1141,6 +1141,9 @@ function Material.Load(Config)
      		        function ButtonLibrary:GetName(Value)
        			        return ButtonLabel.Name
       			end
+			function ButtonLibrary:ChangeButtonName(Value)
+				ButtonLabel.Parent.Name = Value
+			end
 			return ButtonLibrary
 		end
 
