@@ -1141,9 +1141,6 @@ function Material.Load(Config)
      		        function ButtonLibrary:GetName(Value)
        			        return ButtonLabel.Name
       			end
-			function ButtonLibrary:GetDir()
-				return ButtonLabel:GetFullName()	
-			end
 			return ButtonLibrary
 		end
 
